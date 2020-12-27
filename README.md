@@ -59,10 +59,12 @@ Fade | Transitions between randomly generated colors as fast or slow as you want
 Romantic | Transitions between randomly generated shades of Red, Pink and Purple as fast or slow as you want
 Monochrome | Transitions between black (turnt off) and bright white as fast or slow as you want
 
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+<br />
+The Smart Led Lights have 3 components:
+* Web and WebSocket Servers that run on an ESP8266 connected to the Leds
+* The Users Device (Phone, Tablet, PC or Smart Fridge)
+* A Python Script that gets the currently playing song and the data the Server needs to sync with the song
+<br />
 
 ### Built With
 
