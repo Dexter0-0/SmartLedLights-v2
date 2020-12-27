@@ -5,7 +5,7 @@
     WiFi controlled Led Lights
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Read the code »</strong></a>
+    <a href="https://github.com/Dexter0-0/SmartLedLights-v2"><strong>Read the code »</strong></a>
     <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
