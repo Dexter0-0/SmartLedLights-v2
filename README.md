@@ -33,6 +33,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#screenshots">Screenshots</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -43,8 +44,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-![plot](./Screenshots/WebPagePhoto.png)
-[![Product Name Screen Shot][product-screenshot]](https://i.ibb.co/3vJkkZh/image.png)
 
 There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
@@ -107,12 +106,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
-
+<!-- SCREENSHOTS -->
+## Screenshots
+![plot](./Screenshots/WebPagePhoto.png)
 
 <!-- CONTRIBUTING -->
 ## Contributing
