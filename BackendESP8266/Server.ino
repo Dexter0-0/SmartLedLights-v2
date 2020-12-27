@@ -360,8 +360,8 @@ void setup()
   Serial.println(WiFi.localIP());
 
   /* Start and Config Web Server */
-  WebServer.on("/password=ratustelefantastice&user=rares", ServeMainPage);
-  WebServer.on("/password=ratustelefantastice&user=denisa", ServeMainPage);
+  WebServer.on("/password=PASSWORD&user=USER0", ServeMainPage);
+  WebServer.on("/password=PASSWORD&user=USER1", ServeMainPage);
   WebServer.begin();
 
   /* Start and Config Web Sockets Server */
