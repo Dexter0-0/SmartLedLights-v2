@@ -61,17 +61,22 @@ Monochrome | Transitions between black (turnt off) and bright white as fast or s
 
 <br />
 The Smart Led Lights have 3 components:
+<br />
 * Web and WebSocket Servers that run on an ESP8266 connected to the Leds
+<br />
 * The Users Device (Phone, Tablet, PC or Smart Fridge)
+<br />
 * A Python Script that gets the currently playing song and the data the Server needs to sync with the song
 <br />
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+* [Bootstrap](https://getbootstrap.com)
+* [Bootstrap](https://getbootstrap.com)
+* [Bootstrap](https://getbootstrap.com)
+* [Bootstrap](https://getbootstrap.com)
+
 
 
 
