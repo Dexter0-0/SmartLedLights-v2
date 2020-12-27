@@ -17,6 +17,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
+  <br />
   <summary>Table of Contents</summary>
   <ol>
     <li>
@@ -45,7 +46,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+There are a lot of Led Light Controllers out there but this one is customizable and it is really easy to add new modes and features. At the moment, the Smart Led Lights come with this features:
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
