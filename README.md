@@ -46,12 +46,17 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-There are a lot of Led Light Controllers out there but this one is highly customizable and responsive. At the moment, the Smart Led Lights come with this features:
+There are a lot of Led Light Controllers out there but this one is highly customizable, responsive and can be controlled from anywhere in the world. You can also give acces to multiple people to control your Leds and see who changed what and when. At the moment, the Smart Led Lights come with this features:
 
 Feature | Explanation
 ------------ | -------------
 Static color | Choose one of 16.777216 colors
-Music Mode | Turning the Music Mode ON will make the Leds sync with the music you are listening on Spotify
+Music Mode | Turning the Music Mode ON will make the Leds sync with the music you are listening to on Spotify
+Animate Current Color | Takes the current color and transitions between making it dimmer or brighter as fast or slow as you want
+Fade | Transitions between randomly generated colors as fast or slow as you want
+Romantic | Transitions between randomly generated shades of Red, Pink and Purple as fast or slow as you want
+Monochrome | Transitions between black (turnt off) and bright white as fast or slow as you want
+
 
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
 
