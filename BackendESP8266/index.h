@@ -248,7 +248,7 @@ const char MainPage[] PROGMEM = R"=====(
     var ModeDelay;
     var MusicMode;
 
-    let Socket = new WebSocket("ws://89.136.241.70:2413");
+    let Socket = new WebSocket("ws://IP:WS_PORT");
 
     Socket.onclose = function(event) 
     {
@@ -302,7 +302,7 @@ const char MainPage[] PROGMEM = R"=====(
                 });
 
                 let ColorsJSON = { 
-                    Password: "ratustelefantastice",
+                    Password: "PASSWORD",
                     Mode: "StaticColor",
                     User: ThisUser,
                     UserTime: ThisTime,
@@ -349,7 +349,7 @@ const char MainPage[] PROGMEM = R"=====(
                 });
                 
                 let FadeJSON = { 
-                    Password: "ratustelefantastice",
+                    Password: "PASSWORD",
                     Mode: "Fade",
                     User: ThisUser,
                     UserTime: ThisTime,
@@ -377,7 +377,7 @@ const char MainPage[] PROGMEM = R"=====(
                 });
                 
                 let RomanticJSON = { 
-                    Password: "ratustelefantastice",
+                    Password: "PASSWORD",
                     Mode: "Romantic",
                     User: ThisUser,
                     UserTime: ThisTime,
@@ -412,7 +412,7 @@ const char MainPage[] PROGMEM = R"=====(
         });
 
         let MusicJSON = { 
-            Password: "ratustelefantastice",
+            Password: "PASSWORD",
             Mode: "MusicToggle",
             User: ThisUser,
             UserTime: ThisTime,
