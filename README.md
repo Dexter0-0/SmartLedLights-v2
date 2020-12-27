@@ -48,7 +48,7 @@
 
 There are a lot of Led Light Controllers out there but this one is highly customizable and it is really easy to add new modes and features. At the moment, the Smart Led Lights come with this features:
 
-First Header | Second Header
+Feature | Explanation
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
