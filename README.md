@@ -46,12 +46,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-There are a lot of Led Light Controllers out there but this one is highly customizable and it is really easy to add new modes and features. At the moment, the Smart Led Lights come with this features:
+There are a lot of Led Light Controllers out there but this one is highly customizable and responsive. At the moment, the Smart Led Lights come with this features:
 
 Feature | Explanation
 ------------ | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+Static color | Choose one of 16.777216 colors
+Music Mode | Turning the Music Mode ON will make the Leds sync with the music you are listening on Spotify
 
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
 
