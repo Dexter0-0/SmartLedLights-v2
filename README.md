@@ -48,6 +48,8 @@
 
 There are a lot of Led Light Controllers out there but this one is highly customizable, responsive and can be controlled from anywhere in the world. You can also give acces to multiple people to control your Leds and see who changed what and when. At the moment, the Smart Led Lights come with this features:
 
+<br />
+
 Feature | Explanation
 ------------ | -------------
 Static color | Choose one of 16.777216 colors
