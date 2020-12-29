@@ -31,7 +31,7 @@
       <ul>
         <li><a href="#hardware">Hardware</a></li>
         <li><a href="#esp8266">ESP8266</a></li>
-        <li><a href="#wifi">ESP8266</a></li>
+        <li><a href="#wifi">Wi Fi Port Forwarding</a></li>
         <li><a href="#python">Python script</a></li>
       </ul>
     </li>
@@ -143,33 +143,13 @@ Install the following libraries using pip
   ```sh
   pip install lib 2
   ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
+!! TODO write here how to make a spotify app and allow an account to use it and use spotipy
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
+In order to control the Leds you need to open a browser on any device and enter the local IP of the ESP8266 (visible in Serial) or your public IP if you port forwarded <a href="wifi">see here</a> followed by :2412/password=YOUR_PASSWORD&user=YOUR_USER
 
 <!-- SCREENSHOTS -->
 ## Screenshots
@@ -181,12 +161,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch 
+3. Commit your Changes 
+4. Push to the Branch 
 5. Open a Pull Request
-
-
 
 <!-- LICENSE -->
 ## License
@@ -194,11 +172,7 @@ Contributions are what make the open source community such an amazing place to b
 Distributed under the MIT License. See `LICENSE` for more information.
 
 
-
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
+Nandra Rares - nandrarares16@gmail.com
