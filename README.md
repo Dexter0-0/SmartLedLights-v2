@@ -119,7 +119,13 @@ In order to use the Smart Led Lights you need to follow this steps:
 
 ### WiFi
 
-! Follow this steps only if you want to be able to access the Leds outside your network
+! Follow this steps only if you want to be able to access the Leds outside your network !
+
+<ol>
+    <li>Go to port forwarding on your routers webpanel <a href="https://www.noip.com/support/knowledgebase/general-port-forwarding-guide/">tutorial here</a></li>
+    <li>Open the Serial in Arduino IDE after uploading the code on the ESP8266 and get the assigned IP of the ESP8266</li>
+    <li>Forward the ports 2412 and 2413 (can be changed in the code) to the ESP8266 Local IP</li>
+</ol>
 
 ### Python
 
