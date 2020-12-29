@@ -108,6 +108,21 @@ In order to use the Smart Led Lights you need to follow this steps:
 
 ### esp8266
 
+<ol>
+    <li>Configure Arduino IDE to use the ESP8266 <a href="https://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide/">tutorial here</a></li>
+    <li>Download the libraries under "Backend" from <a href="#built-with">here</a></li>
+    <li>Change the WiFiSSID and WiFiPassword variables to your networks SSID and Password</li>
+    <li>Change the routes in setup to your desired password and allowed users ex: WebServer.on("/password=12345678&user=dexter", ServeMainPage);</li>
+    <li>Change the websocket route in index.h with your ip (local or public ~see below~)</li>
+    <li>Upload your code to the ESP8266</li>
+</ol>
+
+### WiFi
+
+! Follow this steps only if you want to be able to access the Leds outside your network
+
+### Python
+
 This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
