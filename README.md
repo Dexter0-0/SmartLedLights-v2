@@ -91,8 +91,16 @@ Python Script:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+In order to use the Smart Led Lights you need to follow this steps:
+
+<ol>
+    <li>Connect the Led Strip to an ESP 8266</li>
+    <li>Connect the Led Strip to an ESP 8266</li>
+    <li>Connect the Led Strip to an ESP 8266</li>
+    <li>Connect the Led Strip to an ESP 8266</li>
+ 
+</ol>
+
 
 ### Prerequisites
 
