@@ -29,8 +29,9 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#hardware">Hardware</a></li>
+        <li><a href="#esp8266">ESP8266</a></li>
+        <li><a href="#python">Python script</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -91,6 +92,8 @@ Python Script:
 <!-- GETTING STARTED -->
 ## Getting Started
 
+### Hardware
+
 In order to use the Smart Led Lights you need to follow this steps:
 
 <ol>
@@ -102,7 +105,7 @@ In order to use the Smart Led Lights you need to follow this steps:
 </ol>
 
 
-### Prerequisites
+### esp8266
 
 This is an example of how to list things you need to use the software and how to install them.
 * npm
