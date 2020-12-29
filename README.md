@@ -113,6 +113,7 @@ In order to use the Smart Led Lights you need to follow this steps:
     <li>Configure Arduino IDE to use the ESP8266 <a href="https://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide/">tutorial here</a></li>
     <li>Download the libraries under "Backend" from <a href="#built-with">here</a></li>
     <li>Change the WiFiSSID and WiFiPassword variables to your networks SSID and Password</li>
+    <li>Change the WebServerPort and WebSocketsPort variables to what port number you want</li>
     <li>Change the routes in setup to your desired password and allowed users ex: WebServer.on("/password=12345678&user=dexter", ServeMainPage);</li>
     <li>Change the websocket route in index.h with your ip (local or public ~see below~)</li>
     <li>Upload your code to the ESP8266</li>
@@ -125,7 +126,7 @@ In order to use the Smart Led Lights you need to follow this steps:
 <ol>
     <li>Go to port forwarding on your routers webpanel <a href="https://www.noip.com/support/knowledgebase/general-port-forwarding-guide/">tutorial here</a></li>
     <li>Open the Serial in Arduino IDE after uploading the code on the ESP8266 and get the assigned IP of the ESP8266</li>
-    <li>Forward the ports 2412 and 2413 (can be changed in the code) to the ESP8266 Local IP</li>
+    <li>Forward the ports WebServer and WebSockets ports (can be changed in the code) to the ESP8266 Local IP</li>
 </ol>
 
 ### Python
@@ -149,7 +150,7 @@ Install the following libraries using pip
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-In order to control the Leds you need to open a browser on any device and enter the local IP of the ESP8266 (visible in Serial) or your public IP if you port forwarded <a href="wifi">see here</a> followed by :2412/password=YOUR_PASSWORD&user=YOUR_USER
+In order to control the Leds you need to open a browser on any device and enter the local IP of the ESP8266 (visible in Serial) or your public IP if you port forwarded <a href="wifi">see here</a> followed by :WEB_SERVER_PORT/password=YOUR_PASSWORD&user=YOUR_USER
 
 <!-- SCREENSHOTS -->
 ## Screenshots
