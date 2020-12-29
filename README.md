@@ -78,10 +78,11 @@ Backend:
 * [WebSocketsServer](https://getbootstrap.com)
 * [ArduinoJson](https://getbootstrap.com)
 <br />
+
 Frontend:
-<br />
 * [Bootstrap](https://getbootstrap.com)
 * [iro.js](https://github.com/jaames/iro.js)
+
 <br />
 Python Script:
 * [Websockets](https://getbootstrap.com)
