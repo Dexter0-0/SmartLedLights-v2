@@ -72,11 +72,11 @@ The Smart Led Lights have 3 components:
 ### Built With
 
 Backend:
-* [ESP8266WiFi](https://getbootstrap.com)
-* [WiFiClient](https://getbootstrap.com)
-* [ESP8266WebServer](https://getbootstrap.com)
-* [WebSocketsServer](https://getbootstrap.com)
-* [ArduinoJson](https://getbootstrap.com)
+* [ESP8266WiFi](https://arduino-esp8266.readthedocs.io/en/latest/esp8266wifi/readme.html)
+* [WiFiClient](https://www.arduino.cc/en/Reference/WiFiClient)
+* [ESP8266WebServer](https://github.com/esp8266/Arduino/tree/master/libraries/ESP8266WebServer)
+* [WebSocketsServer](https://github.com/Links2004/arduinoWebSockets)
+* [ArduinoJson](https://arduinojson.org/)
 <br />
 
 Frontend:
