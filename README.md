@@ -31,6 +31,7 @@
       <ul>
         <li><a href="#hardware">Hardware</a></li>
         <li><a href="#esp8266">ESP8266</a></li>
+        <li><a href="#wifi">ESP8266</a></li>
         <li><a href="#python">Python script</a></li>
       </ul>
     </li>
@@ -129,10 +130,18 @@ In order to use the Smart Led Lights you need to follow this steps:
 
 ### Python
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+Install the following libraries using pip
+
   ```sh
-  npm install npm@latest -g
+  pip install lib 0
+  ```
+  
+  ```sh
+  pip install lib 1
+  ```
+  
+  ```sh
+  pip install lib 2
   ```
 
 ### Installation
