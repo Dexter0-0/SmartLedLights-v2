@@ -92,16 +92,17 @@ Python Script:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-### Hardware
-
 In order to use the Smart Led Lights you need to follow this steps:
+
+### Hardware
 
 <ol>
     <li>Connect the Led Strip to an ESP 8266</li>
-    <li>Connect the Led Strip to an ESP 8266</li>
-    <li>Connect the Led Strip to an ESP 8266</li>
-    <li>Connect the Led Strip to an ESP 8266</li>
- 
+    <li>Red -> D7</li>
+    <li>D7 Green -> D6</li>
+    <li>Blue -> D5</li>
+    <li>Black -> GND</li>
+    <li><a href="https://cdn.instructables.com/ORIG/FDY/2GF8/ILTQF2S9/FDY2GF8ILTQF2S9.gif?frame=1">If the Led Strip requires 12V use a different power source for them and make a circuit using mosfets like this one</a></li>
 </ol>
 
 
