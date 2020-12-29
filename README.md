@@ -82,13 +82,11 @@ Backend:
 Frontend:
 * [Bootstrap](https://getbootstrap.com)
 * [iro.js](https://github.com/jaames/iro.js)
-
 <br />
+
 Python Script:
-* [Websockets](https://getbootstrap.com)
-* [Spotipy](https://getbootstrap.com)
-
-
+* [Websockets](https://websockets.readthedocs.io/en/stable/index.html)
+* [Spotipy](https://spotipy.readthedocs.io/en/2.12.0/#)
 
 <!-- GETTING STARTED -->
 ## Getting Started
