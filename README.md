@@ -159,7 +159,7 @@ In order to control the Leds you need to open a browser on any device and enter 
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+This projects was made for myself.Any Contributions are **greatly appreciated** as I am sure there are a lot of improvments to be made
 
 1. Fork the Project
 2. Create your Feature Branch 
