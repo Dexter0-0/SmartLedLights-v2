@@ -1,1 +1,171 @@
-a
+body
+    {
+        background-color: #000000;
+        overflow-x: hidden;
+    }
+
+    h1, h1, h3, h4, h5, h6
+    {
+        color: white;
+    }
+
+    .container-fluid
+    {
+        margin-top: 2.5%;
+    }
+
+    .row
+    {
+        text-align: center;
+    }
+
+    #ColorWheel
+    {
+        margin: 0 auto;
+    }
+
+    @media only screen and (max-width: 800px) 
+    {
+        .container-fluid
+        {
+            margin-top: 10%;
+        }
+
+        #ColorWheel
+        {
+            margin: 5% auto;
+        }
+    }
+
+    #UserInfo
+    {
+        margin-top: 25px;
+    }
+
+    .RangeSliderBox
+    {
+        margin-left: calc(50% - 160px);
+        margin-top: 20px;
+        border-radius: 9px;
+        text-align: center;
+        width: 320px;
+        height: 125px;
+        margin-bottom: 50px;
+    }
+
+    #FadeBox
+    {
+        background-image: linear-gradient(to bottom right, rgb(0, 119, 255) , rgb(0, 255, 55));
+    }
+
+    #RomanticBox
+    {
+        background-image: linear-gradient(to bottom right, rgb(150, 0, 0) , rgb(252, 61, 61));
+    }
+
+    .AnimationTitle
+    {
+        padding-top: 5px;
+    }
+
+    .RangeSlider
+    {
+        -webkit-appearance: none;
+        appearance: none;
+        border-radius: 18px;
+        outline: none;
+        margin-left: 2.5%;
+        width: 95%; 
+        height: 30px; 
+        background: #000000;
+    }
+
+    .RangeSlider::-webkit-slider-thumb 
+    {
+        -webkit-appearance: none; 
+        appearance: none;
+        width: 26px; 
+        height: 26px; 
+        background: #007EF4; 
+        cursor: pointer;
+        border-width: 0px;
+        border-radius: 50%;
+    }
+
+    .RangeSlider::-moz-range-thumb 
+    {
+        width: 26px; 
+        height: 26px; 
+        background: #007EF4; 
+        cursor: pointer; 
+        border-width: 0px;
+        border-radius: 50%;
+    }
+
+    #RomanticSlider::-webkit-slider-thumb
+    {
+        background: white; 
+    }
+
+    #RomanticSlider::-moz-range-thumb 
+    {
+        background: white;
+    }
+
+    .MusicSwitch
+    {
+        margin-top: 1%;
+        position: relative;
+        display: inline-block;
+        width: 150px;
+        height: 46px;
+    }
+
+
+    .MusicSwitch input 
+    {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .MusicSlider
+    {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgb(97, 97, 97);
+        -webkit-transition: .4s;
+        transition: .4s;
+        border-radius: 34px;
+    }
+
+    .MusicSlider:before 
+    {
+        position: absolute;
+        content: "";
+        height: 42px;
+        width: 42px;
+        left: 2px;
+        bottom: 2px;
+        background-image: url("https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-icon-marilyn-scott-0.png");
+        background-size: contain;
+        -webkit-transition: .4s;
+        transition: .4s;
+        border-radius: 50%;
+    }
+
+    input:checked + .MusicSlider
+    {
+        background-image: linear-gradient(to top left, rgb(0, 119, 255) , rgb(0, 255, 55));
+    }
+
+    input:checked + .MusicSlider:before 
+    {
+        -webkit-transform: translateX(104px);
+        -ms-transform: translateX(104px);
+        transform: translateX(104px);
+    }
